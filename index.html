@@ -1,32 +1,51 @@
+<!-- /index.html -->
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<body>
+
+  <link href="assets/css/styles.css" rel="stylesheet">
+
+  <div id="header-placeholder"></div>
+
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Mike Fuller, Software Consultant">
     <title>Mike Fuller</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Ubuntu:wght@300;400&display=swap"
+      rel="stylesheet">
     <link href="assets/css/styles.css" rel="stylesheet">
-</head>
+  </head>
 
-<body>
+  <main>
+    <h1>Welcome to My Website</h1>
+    <p>I'm Mike Fuller, a software consultant with expertise in full-stack development.</p>
+    <p>Explore my work:</p>
+    <nav>
+      <ul>
+        <li><a href="sections/about.html">About Me</a></li>
+        <li><a href="sections/skills.html">Skills</a></li>
+        <li><a href="sections/experience.html">Experience</a></li>
+        <li><a href="sections/portfolio.html">Portfolio</a></li>
+        <li><a href="sections/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </main>
 
-    <header>
-        <h1>Mike Fuller</h1>
-        <p>Software Consultant at Deloitte | Oxford MMath Graduate (2020)</p>
-    </header>
+  <div id="footer-placeholder"></div>
 
-    <div class="container">
-        <iframe src="sections/about.html" width="100%" height="auto" frameborder="0"></iframe>
-        <iframe src="sections/skills.html" width="100%" height="auto" frameborder="0"></iframe>
-        <iframe src="sections/experience.html" width="100%" height="auto" frameborder="0"></iframe>
-        <iframe src="sections/portfolio.html" width="100%" height="auto" frameborder="0"></iframe>
-        <iframe src="sections/contact.html" width="100%" height="auto" frameborder="0"></iframe>
-    </div>
+  <script>
+    document.getElementById("header-placeholder").innerHTML = `
+        <object type="text/html" data="common/header.html" width="100%" height="100"></object>
+      `;
+  </script>
 
-    <footer>
-        <p>&copy; 2025 Michael Fuller. All rights reserved. <br> <a href="#about">Back to top</a></p>
-    </footer>
+  <script>
+    document.getElementById("footer-placeholder").innerHTML = `
+        <object type="text/html" data="common/footer.html" width="100%" height="100"></object>
+      `;
+  </script>
 
 </body>
 
