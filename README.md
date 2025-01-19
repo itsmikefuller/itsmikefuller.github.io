@@ -1,1 +1,0 @@
-# michaeljosephfuller.github.io
