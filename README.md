@@ -4,4 +4,4 @@ This repository contains code that I use to host my website, [mikefuller.co.uk](
 
 My website is a dynamic, desktop and mobile-friendly single page showing a basic introduction of myself, my professional experience, and programming portfolio.
 
-Last updated: 20th January 2025
+Last updated: 22nd January 2025
